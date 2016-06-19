@@ -1,8 +1,7 @@
 var angular = require('angular');
 var ngMock = require('angular-mocks');
-var uiRouter = require('angular-ui-router');
 
-var myApp = angular.module('myApp', [uiRouter]);
+var myApp = angular.module('myApp', []);
 
 myApp.controller('helloWorldController', ['$scope', function($scope) {
 

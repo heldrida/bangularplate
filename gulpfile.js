@@ -8,7 +8,7 @@ var jasmine = require('gulp-jasmine');
 var KarmaServer = require('karma').Server;
 
 gulp.task("webpack", function() {
-    return gulp.src('./app/index.js')
+    return gulp.src('./app/app.js')
     .pipe( gulpWebpack(webpackConfig, webpack) )
     .pipe(gulp.dest('./dist/'))
 });
