@@ -8,15 +8,5 @@ module.exports = {
 	},
 	module: {
 		loaders: []
-	},
-	resolve: {
-		alias: {
-            lodash: path.resolve( __dirname, './node_modules/lodash-node/modern')
-		}
-	},
-	plugins: [
-		new webpack.ProvidePlugin({
-			_: 'lodash'
-		})
-	]
+	}
 };

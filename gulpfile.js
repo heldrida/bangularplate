@@ -35,6 +35,7 @@ gulp.task('watch', function () {
 
 });
 
+/*
 gulp.task("vendor", function() {
 	return gulp.src([
 		'./bower_components/angular-ui-router/release/angular-ui-router.min.js',
@@ -54,6 +55,7 @@ gulp.task("vendor", function() {
 	.pipe(plugins.size())
 	.pipe(gulp.dest('./dist/'));
 });
+*/
 
 gulp.task('jasmine', function () {
     gulp.src('./spec/test.js')

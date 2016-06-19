@@ -4,11 +4,15 @@
 		<div ng-app="myApp">
 
 			<h1>My App</h1>
+						
+			<div ng-controller="helloWorldController">
+			 <button ng-click="sayHello()">Say it!</button>
+			 <p>{{ msg }}</p>
+			</div>
 
 		</div>
 
-		<script src="vendor.js"></script>
 		<script src="bundle.js"></script>
-			
+
    </body>
 </html>

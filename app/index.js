@@ -1,5 +1,13 @@
-var helloWorld = function () {
-  return "Hello world!";
-}
+var angular = require('angular');
 
-module.exports = helloWorld;
+var myApp = angular.module('myApp', []);
+
+myApp.controller('helloWorldController', ['$scope', function($scope) {
+
+    $scope.msg = '';
+
+    $scope.sayHello = function() {
+        $scope.msg = 'Hello World!';
+    };
+
+}]);
