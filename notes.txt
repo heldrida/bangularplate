@@ -13,3 +13,5 @@ https://www.airpair.com/angularjs/posts/unit-testing-angularjs-applications
 https://quickleft.com/blog/angularjs-unit-testing-for-real-though/
 
 https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
+
+https://scotch.io/tutorials/angularjs-best-practices-directory-structure
