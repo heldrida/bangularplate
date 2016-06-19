@@ -1,0 +1,24 @@
+{
+  "name": "ng01",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Helder <heldrida@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/heldrida/bash_profile",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-ui": "^0.4.0"
+  }
+}
