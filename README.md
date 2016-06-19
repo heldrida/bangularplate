@@ -1,7 +1,7 @@
 
-# Bang!ularplate
+# Bangularplate
 
-A boilerplate to kickstart AngularJS V1 development using Webpack, Gulp and testing.
+Pronounced "Bang!ularplate", is boilerplate to kickstart AngularJS V1 development using Webpack, Gulp and testing.
 
 
 Features:
