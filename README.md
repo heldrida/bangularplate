@@ -6,6 +6,7 @@ A boilerplate to kickstart AngularJS V1 development using Webpack, Gulp and test
 
 Features
 ---
+* Angularjs with UI-Router
 * Gulp and Webpack as a build system.
 * BrowserSync for development.
-* Jasma Unit tests over Karma.
+* Jasmine Unit tester over Karma.
