@@ -31,12 +31,13 @@ gulp.task('watch', function () {
 		browserSync.reload();
 	});
 
+	gulp.watch('./app/**/*.js', ['testRunner']);
 	gulp.watch('./app/**/*.js', ['webpack']);
 	gulp.watch('./app/index.html', ['copyIndex']);
 
 });
 
-gulp.task('test', function (done) {
+gulp.task('testRunner', function (done) {
   new KarmaServer({
     configFile: __dirname +  '/karma.conf.js',
     singleRun: true

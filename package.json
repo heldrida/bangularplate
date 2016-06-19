@@ -1,7 +1,7 @@
 {
-  "name": "ng01",
-  "version": "1.0.0",
-  "description": "",
+  "name": "angularWebpackJasmineGulpBoilerplate",
+  "version": "0.1",
+  "description": "A boilerplate to kickstart AngularJS V1 development using Webpack, Gulp and testing.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
