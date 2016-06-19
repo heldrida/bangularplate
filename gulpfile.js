@@ -35,29 +35,7 @@ gulp.task('watch', function () {
 
 });
 
-/*
-gulp.task("vendor", function() {
-	return gulp.src([
-		'./bower_components/angular-ui-router/release/angular-ui-router.min.js',
-		'./bower_components/angular/angular.min.js',
-		'./bower_components/angular-animate/angular-animate.min.js',
-		'./bower_components/angular-mocks/angular-mocks.js'
-	])
-	.pipe(plugins.order([
-			'angular/angular.min.js',
-			'angular-ui-router/release/angular-ui-router.min.js',
-			'angular-animate/angular-animate.min.js'
-		], {
-			base: './app/bower_components'
-		})
-	)
-	.pipe(plugins.concat('vendor.js'))
-	.pipe(plugins.size())
-	.pipe(gulp.dest('./dist/'));
-});
-*/
-
-gulp.task('jasmine', function () {
+gulp.task('test', function () {
     gulp.src('./spec/test.js')
         .pipe(jasmine());
 });

@@ -1,7 +1,5 @@
-var helloWorld = require('../app/index.js');
-
-describe("Hello world", function() {
-  it("says hello", function() {
-    expect(helloWorld()).toEqual("Hello world!");
+describe('example test', function() {
+  it('should be true', function() {
+    expect('foo').toBe('foo');
   });
 });
