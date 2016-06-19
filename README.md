@@ -12,19 +12,21 @@ Features:
 * Jasmine Unit tester over Karma.
 
 
-Global dependencies installation:
+Dependencies:
+---
+
 ```
+Global dependencies installation:
 
 * Install node
 * npm install -g gulp webpack
 
 
 Local dependencies installation:
-```
 
 * npm install
 * bower install
-
+```
 
 Workflow:
 ---
