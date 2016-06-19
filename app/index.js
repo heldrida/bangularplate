@@ -1,4 +1,5 @@
 var angular = require('angular');
+var ngMock = require('angular-mocks');
 
 var myApp = angular.module('myApp', []);
 

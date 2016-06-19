@@ -36,9 +36,11 @@ gulp.task('watch', function () {
 
 });
 
-gulp.task('test', function () {
-    gulp.src('./spec/test.js')
-        .pipe(jasmine());
+gulp.task('test', function (done) {
+  new KarmaServer({
+    configFile: __dirname +  '/karma.conf.js',
+    singleRun: true
+  }, done).start();
 });
 
 gulp.task('serve', ['watch'], function () {
