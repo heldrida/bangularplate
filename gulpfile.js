@@ -5,6 +5,7 @@ var gulpWebpack = require('gulp-webpack');
 var browserSync = require('browser-sync').create();
 var plugins = require('gulp-load-plugins');
 var jasmine = require('gulp-jasmine');
+var KarmaServer = require('karma').Server;
 
 gulp.task("webpack", function() {
     return gulp.src('./app/index.js')

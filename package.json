@@ -17,6 +17,10 @@
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.4.0",
     "gulp-load-plugins": "^1.2.4",
-    "gulp-webpack": "^1.5.0"
+    "gulp-webpack": "^1.5.0",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
   }
 }
