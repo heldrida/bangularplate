@@ -1,5 +1,5 @@
 
-# Angular Webpack Jasmine Gulp Testing Boilerplate
+# Bangularplate
 
 A boilerplate to kickstart AngularJS V1 development using Webpack, Gulp and testing.
 
