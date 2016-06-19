@@ -49,7 +49,7 @@ gulp.task('testRunner', function (done) {
 
 // Sass
 gulp.task('sass', function () {
-    return gulp.src('./src/sass/main.scss')
+    return gulp.src('./src/sass/app.scss')
            .pipe(plumber())
            .pipe(sass())
            .pipe(gulp.dest('./dist/css'))

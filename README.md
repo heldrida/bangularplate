@@ -31,4 +31,5 @@ Local dependencies installation:
 Workflow:
 ---
 
+* Edit the `src/sass` namespace `ns-default` name by the project
 * Start the development server: `gulp serve`
