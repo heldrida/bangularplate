@@ -8,11 +8,13 @@ var jasmine = require('gulp-jasmine');
 var KarmaServer = require('karma').Server;
 var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
+var rename = require("gulp-rename");
 
 gulp.task("webpack", function() {
     return gulp.src('./app/app.js')
+    .pipe(rename('bundle.js'))
     .pipe( gulpWebpack(webpackConfig, webpack) )
-    .pipe(gulp.dest('./dist/'))
+    .pipe(gulp.dest('./dist/'));
 });
 
 gulp.task("copyIndex", function() {
